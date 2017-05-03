@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+<body>
+    <header class="info">
+        <div class="info-item">
+            <span class="info-title">Number of shapes:</span>
+            <span id="number-of-shapes"></span>
+        </div>
+        <div class="info-item">
+            <span class="info-title">Covered area:</span>
+            <span id="covered-area"></span>
+        </div>
+    </header>
+    <div id="app"></div>
+    <footer class="settings">
+        <div class="setting">
+            <label for="shapes-per-second">Shapes per second:</label>
+            <input type="number" min="0" max="10" id="shapes-per-second" value="2">
+        </div>
+        <div class="setting">
+            <label for="gravity">Gravity:</label>
+            <input type="number" min="0" max="10" id="gravity" value="1">
+        </div>
+
+    </footer>
+    <script src="dist/vendor.bundle.js"></script>
+    <script src="dist/app.bundle.js"></script>
+</body>
+</html>
